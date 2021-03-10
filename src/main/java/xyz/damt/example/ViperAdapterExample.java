@@ -10,7 +10,8 @@ import java.util.List;
 /**
  @since 3/10/2021
  @author damt
- @Note Telegram: t.me/therealdamt
+ <p>
+ <b>Note:</b> Telegram: t.me/therealdam
  */
 
 public class ViperAdapterExample extends ViperBoard {
