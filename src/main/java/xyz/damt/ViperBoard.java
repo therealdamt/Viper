@@ -4,10 +4,10 @@ import org.bukkit.entity.Player;
 
 import java.util.List;
 
-/*
-    Viper Scoreboard API
-    Created by damt
-    Telegram: https://t.me/therealdamt
+/**
+ @since 3/10/2021
+ @author damt
+ @Note Telegram: t.me/therealdamt
  */
 
 public abstract class ViperBoard {

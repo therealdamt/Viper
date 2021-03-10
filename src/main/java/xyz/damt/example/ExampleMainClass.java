@@ -3,11 +3,11 @@ package xyz.damt.example;
 import org.bukkit.plugin.java.JavaPlugin;
 import xyz.damt.Viper;
 
-/*
-    Viper Scoreboard API
-    Created by damt
-    Telegram: https://t.me/therealdamt
- */
+/**
+ @since 3/10/2021
+ @author damt
+ @Note Telegram: t.me/therealdamt
+*/
 
 public class ExampleMainClass extends JavaPlugin {
 
@@ -16,9 +16,9 @@ public class ExampleMainClass extends JavaPlugin {
 
         new Viper(this, new ViperAdapterExample(), 10);
 
-        /*
+        /**
         Time = Long Time
-        Adapter = Your Scoreboard Adapter (Must extend @ViperBoard)
+        Adapter = Your Scoreboard Adapter (Must extend {@link ViperBoard} )
         Plugin = Your Java Main Class
          */
 

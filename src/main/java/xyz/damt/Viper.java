@@ -13,10 +13,10 @@ import org.bukkit.scoreboard.Score;
 
 import java.util.*;
 
-/*
-    Viper Scoreboard API
-    Created by damt
-    Telegram: https://t.me/therealdamt
+/**
+ @since 3/10/2021
+ @author damt
+ @Note Telegram: t.me/therealdamt
  */
 
 
