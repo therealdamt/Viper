@@ -4,6 +4,12 @@ import org.bukkit.entity.Player;
 
 import java.util.List;
 
+/*
+    Viper Scoreboard API
+    Created by damt
+    Telegram: https://t.me/therealdamt
+ */
+
 public abstract class ViperBoard {
 
     public abstract String getTitle();

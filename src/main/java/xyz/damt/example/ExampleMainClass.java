@@ -3,6 +3,12 @@ package xyz.damt.example;
 import org.bukkit.plugin.java.JavaPlugin;
 import xyz.damt.Viper;
 
+/*
+    Viper Scoreboard API
+    Created by damt
+    Telegram: https://t.me/therealdamt
+ */
+
 public class ExampleMainClass extends JavaPlugin {
 
     @Override

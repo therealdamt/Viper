@@ -13,6 +13,13 @@ import org.bukkit.scoreboard.Score;
 
 import java.util.*;
 
+/*
+    Viper Scoreboard API
+    Created by damt
+    Telegram: https://t.me/therealdamt
+ */
+
+
 public class Viper implements Listener {
 
     public HashMap<UUID, List<String>> playerScoreboard = new HashMap<>();
