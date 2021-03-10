@@ -7,9 +7,8 @@ import xyz.damt.Viper;
  @since 3/10/2021
  @author damt
  <p>
- <b>Note:</b> Telegram: t.me/therealdam
+ <b>Note:</b> Telegram: t.me/therealdamt
  */
-
 public class ExampleMainClass extends JavaPlugin {
 
     @Override
