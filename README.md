@@ -10,6 +10,7 @@ Created by damt
 * Developer friendly. Setup your board in a few lines.
 * Can be reloaded
 * Changable timing intervals
+* Each player has their own scoreboard [Can be used for cores]
 
 ### Code Examples
 ```java
