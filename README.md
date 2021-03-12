@@ -12,6 +12,9 @@ Created by damt
 * Changable timing intervals
 * Each player has their own scoreboard [Can be used for cores]
 
+### Tested Versions
+* 1.8 [40 Characters]
+
 ### Code Examples
 ```java
     @Override
