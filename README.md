@@ -1,8 +1,6 @@
 # Viper
-A scoreboard API for all versions of which support the default minecraft
-Tested Versions: 1.8 [Max = 40 characters]
-
-Created by damt
+A scoreboard API for all versions of which support the default minecraft scoreboard
+Viper board, created by damt.
 
 ### Features
 * Supports up to 40 characters per line.
