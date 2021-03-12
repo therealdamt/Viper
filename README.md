@@ -1,5 +1,6 @@
 # Viper
-A scoreboard API for all versions of which support the default minecraft scoreboard\n
+A scoreboard API for all versions of which support the default minecraft scoreboard
+
 Viper board, created by damt.
 
 ### Features
