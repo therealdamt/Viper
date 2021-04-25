@@ -49,7 +49,7 @@ public class ViperAdapterExample extends ViperBoard {
 
 ### Contact
 
-- Discord: damt#3333
+- Discord: damt#0886
 - Telegram: https://t.me/therealdamt
 
 ### Credits
