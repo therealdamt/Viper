@@ -23,7 +23,7 @@ import java.util.*;
 
 public class Viper implements Listener {
 
-    public HashMap<UUID, List<String>> playerScoreboard = new HashMap<>();
+    public Map<UUID, List<String>> playerScoreboard = new ConcurrentHashMap<>();
 
     private final ViperBoard scoreboard;
     private final long time;
