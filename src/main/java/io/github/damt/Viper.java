@@ -1,6 +1,8 @@
-package xyz.damt;
+package io.github.damt;
 
+import io.github.damt.thread.ViperThread;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -12,6 +14,8 @@ import org.bukkit.scoreboard.Objective;
 import org.bukkit.scoreboard.Score;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.stream.Collectors;
 
 /**
  @since 3/10/2021
@@ -26,23 +30,20 @@ public class Viper implements Listener {
     public Map<UUID, List<String>> playerScoreboard = new ConcurrentHashMap<>();
 
     private final ViperBoard scoreboard;
+
     private final long time;
 
     public Viper(JavaPlugin plugin, ViperBoard scoreboard, long time) {
         this.scoreboard = scoreboard;
         this.time = time;
 
-        new ViperTask(this).runTaskTimer(plugin, time, time);
+        new ViperThread(this);
 
         Bukkit.getPluginManager().registerEvents(this, plugin);
     }
 
-    public long getDuration() {
-        return this.time;
-    }
-
-    public Collection<List<String>> getLists() {
-        return playerScoreboard.values();
+    public long getTime() {
+        return time;
     }
 
     public void createScoreboard(Player player) {
@@ -52,7 +53,7 @@ public class Viper implements Listener {
         obj.setDisplaySlot(DisplaySlot.SIDEBAR);
         updateLines(player);
 
-        List<String> list = playerScoreboard.get(player.getUniqueId());
+        List<String> list = playerScoreboard.get(player.getUniqueId()).stream().map(s -> ChatColor.translateAlternateColorCodes('&', s)).collect(Collectors.toList());
         Collections.reverse(list);
 
         list.forEach(s -> {
@@ -65,7 +66,6 @@ public class Viper implements Listener {
     }
 
     public void updateLines(Player player) {
-        playerScoreboard.remove(player.getUniqueId());
         playerScoreboard.put(player.getUniqueId(), scoreboard.getLines(player));
     }
 

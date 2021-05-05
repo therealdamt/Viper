@@ -1,4 +1,4 @@
-package xyz.damt;
+package io.github.damt;
 
 import org.bukkit.entity.Player;
 
