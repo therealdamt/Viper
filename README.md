@@ -31,7 +31,7 @@ Viper board, created by damt.
 ```
 
 ```java
-public class ViperAdapterExample extends ViperBoard {
+public class ViperAdapterExample implements ViperBoard {
 
     @Override
     public String getTitle() {
