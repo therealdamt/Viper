@@ -1,10 +1,9 @@
-package xyz.damt.example;
+package io.github.damt.example;
 
+import io.github.damt.ViperBoard;
 import org.bukkit.entity.Player;
-import xyz.damt.ViperBoard;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -14,7 +13,7 @@ import java.util.List;
  <b>Note:</b> Telegram: t.me/therealdamt
  */
 
-public class ViperAdapterExample extends ViperBoard {
+public class ViperAdapterExample implements ViperBoard {
 
     @Override
     public String getTitle() {

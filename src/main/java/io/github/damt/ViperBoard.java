@@ -1,4 +1,4 @@
-package xyz.damt;
+package io.github.damt;
 
 import org.bukkit.entity.Player;
 
@@ -11,9 +11,9 @@ import java.util.List;
  <b>Note:</b> Telegram: t.me/therealdamt
  */
 
-public abstract class ViperBoard {
+public interface ViperBoard {
 
-    public abstract String getTitle();
-    public abstract List<String> getLines(Player player);
+    String getTitle();
+    List<String> getLines(Player player);
 
 }

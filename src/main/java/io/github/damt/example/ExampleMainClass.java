@@ -1,7 +1,7 @@
-package xyz.damt.example;
+package io.github.damt.example;
 
+import io.github.damt.Viper;
 import org.bukkit.plugin.java.JavaPlugin;
-import xyz.damt.Viper;
 
 /**
  @since 3/10/2021
