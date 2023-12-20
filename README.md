@@ -1,7 +1,7 @@
 # Viper
 A scoreboard API for all versions of which support the default minecraft scoreboard
 
-Viper board, created by damt.
+Viper board, created by waseem.
 
 ### Features
 * Supports up to 40 characters per line.
@@ -49,8 +49,7 @@ public class ViperAdapterExample implements ViperBoard {
 
 ### Contact
 
-- Discord: damt#0886
-- Telegram: https://t.me/therealdamt
+- Discord: bingbongwaseem
 
 ### Credits
 
